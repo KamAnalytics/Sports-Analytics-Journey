@@ -1,7 +1,45 @@
+# Virtual environment
 .venv/
+env/
+venv/
+
+# Python cache
 __pycache__/
+*.py[cod]
 *.pyc
+*.pyo
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Data files (keep off GitHub)
 *.csv
 *.xlsx
+*.xls
+*.json
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checkers
+.mypy_cache/
+.ruff_cache/
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+tempCodeRunnerFile.py
+
+# Misc
+.env
+.envrc
