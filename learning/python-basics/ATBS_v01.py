@@ -22,4 +22,4 @@
 # Great for beginners compared to other languages
 # Tool to increase productivity
 
-print('Hello World!')
+print('Hello!')

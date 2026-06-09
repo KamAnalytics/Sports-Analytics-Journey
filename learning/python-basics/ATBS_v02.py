@@ -31,9 +31,9 @@ print(100)
 print(3.1415)
 print(10.0)
 # Strings
-## Concatenation
+    ## Concatenation
 print('USD ' + 'Coyotes')
-## Replication
+    ## Replication
 print('Go Yotes' + '!' * 3)
 
 # -------------------------------------------------------------
@@ -41,11 +41,11 @@ print('Go Yotes' + '!' * 3)
 # -------------------------------------------------------------
 
 # Assignment statements
-player = 'A.J. Brown'
-AJ_Brown_team = 'New England Patriots'
-AJ_Brown_position = 'WR'
-AJ_Brown_jersey = '1'
-print(player + ' is now on the ' + AJ_Brown_team + '. He plays ' + AJ_Brown_position + ' wearing #' + AJ_Brown_jersey)
+player_1 = 'A.J. Brown'
+p1_team = 'New England Patriots'
+p1_position = 'WR'
+p1_jersey = '1'
+print(player_1 + ' is now on the ' + p1_team + '. He plays ' + p1_position + ' wearing #' + p1_jersey)
 
 # QUESTION: How can I store multiple NFL players' data such as jersey #, position, age, etc.?
 # ANSWER: Use...
