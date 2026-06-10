@@ -105,4 +105,3 @@ print()
 # The not Operator's Truth Table
 print(not True)
 print(not False)
-print()
