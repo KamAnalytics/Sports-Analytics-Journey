@@ -45,8 +45,10 @@ print(10 == 10.0)
 print("10 == 10.0 is " + str(10 == 10.0))
 print()
 
-if 10 < 100: print("10 < 100")
-if 10 > 100: print("10 > 100")
+if 10 < 100:
+    print("10 < 100")
+if 10 > 100:
+    print("10 > 100")
 print()
 
 myName = "Kam"
