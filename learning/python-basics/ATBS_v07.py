@@ -7,7 +7,7 @@
 
 # CONCEPTS COVERED:
 #   for Loops
-#       
+#   range() Function
 
 # -------------------------------------------------------------
 # CONCEPT: for Loops
@@ -40,7 +40,7 @@ print(str(total2))
 # -------------------------------------------------------------
 
 # Format of a range() Function:
-#   format(Min, Max (but not including), Step Argument)
+#   format: (Min, Max (but not including), Step Argument)
 z = 0
 for z in range(0, 10, 2):
     print(str(z))
