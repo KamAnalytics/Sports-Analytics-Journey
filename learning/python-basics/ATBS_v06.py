@@ -37,10 +37,9 @@ print()
 #   break Statements
 #       jumps execution out of the Loop
 
-while True:
-# this can never be False
+# !Infinite Loop!
+while True:     # this can never be False
     print("In order to continue, please type your name:" )
-# !Infinite Loop! (not accounting for upcoming break Statement)
 
     name = input()
     if name == "your name":
