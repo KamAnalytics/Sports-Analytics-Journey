@@ -16,7 +16,7 @@
 # -------------------------------------------------------------
 
 # py's basic set of functions
-print("print(), input(), len()")
+print("print(), input(), len(), etc.")
 
 # -------------------------------------------------------------
 # CONCEPT: Standard Library
