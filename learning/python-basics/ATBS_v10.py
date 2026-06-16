@@ -18,31 +18,52 @@
 name = Kam
 
 # Local Scope:
-this_file = "ATBS_v10.py"
-file_number = 10
-print("Enter this file's password below\nHint: (your name)_(file name)_(file number)")
+import sys
+
 def password():
-    name = "Kam":
+    name = "Kam"
     this_file = "ATBS_v10.py"
     file_number = 10
-    
-    
-    if == this_file:
-        print("Correct")
-        break
-    else: continue
-    print("That is not correct")
 
-input("What is ")
-    if this_file != "ATBS_v10.py" and file_number >= 10:
-        name = "Kam"
-        print("These are my notes titled \"ATBS_v10")
-else: print("This is not the right file.")
+    correct_password = name + "_" + this_file + "_" + str(file_number)
 
-if input() == password:
-    print("Access Granted")
+    attempts = 2
 
-"Kam_ATBS_v10.py_10":
+    while attempts > 0:
+        guess = input("Password: ")
+
+        if guess == correct_password:
+            print("Access Granted\n")
+            return                      # returns None Value - exits the whole function
+
+
+
+
+        if name != name:
+            input("Access Denied. Reason: You are not Kam. Try again\nHint: (your name)_(file name)_(file number)\nPassword: ")
+            if name != name:
+                input("Access Denied. Reason: You are not Kam. Goodbye!")
+                sys.exit()
+        if this_file != this_file:
+            input("Access Denied. Reason: You've entered the wrong file name. Try again\nHint: (your name)_(file name)_(file number)\nPassword: ")
+            if this_file != this_file:
+                input("Access Denied. Reason: You've entered the wrong file name. Goodbye!")
+                sys.exit()
+        if file_number != file_number:
+            input("Access Denied. Reason: You've entered the wrong file number. Try again\nHint: (your name)_(file name)_(file number)\nPassword: ")
+            if file_number != file_number:
+                input("Access Denied. Reason: You've entered the wrong file number. Goodbye!")
+                sys.exit()
+        if python = 
+        else: print("Access Granted\n")
+
+
+
+print("Enter this file's password below\nWARNING: YOU ONLY GET 2 GUESSES...\nPassword: ")
+
+password()
+
+print("The Password is Kam_ATBS_v10.py_10")
 
 # QUESTION: 
 # ANSWER: 
