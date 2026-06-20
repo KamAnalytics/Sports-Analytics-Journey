@@ -1,21 +1,22 @@
 # =============================================================
 # Kam McIntire | Sports Analytics Journey
-# VIDEO 10: Global & Local Scopes
+# VIDEO 10: Global/Local Scopes & global Statements
 # Source: Automate the Boring Stuff - Al Sweigart
 # Date: 06/15/2026 - Last updated 06/20/2026
 # =============================================================
 
 # CONCEPTS COVERED:
 #   Global and Local Scopes
+#   global Statements
 
 # -------------------------------------------------------------
-# CONCEPT: Global and Local Scopes
+# CONCEPT: Global/Local Scopes
 # -------------------------------------------------------------
 
 # Scopes are 'containers' of Variables (Global Variables, Local Variables)
 
 
-# Global and Local Variables can have the same name and different values simultaneously
+# Global & Local Variables (within their respective Scope) can have the same name and different values simultaneously
 # examples of the different scopes:
 
 # Global: `name = "Kam"`
@@ -23,15 +24,15 @@
 
 # Global Scope:
 #   accessible everywhere
-name = "Kam"                            #*GLOBAL*#
-print("Global scope is " + name)
+name = "Kam"                                # GLOBAL VARAIBLE in the GLOBAL SCOPE
+print("Global Variable for name in the Global Scope is " + name)
 
 # Local Scope:
 #   only exists inside a function
 import sys
 
 def password():
-    name = "Kameron"                        #*LOCAL*#
+    name = "Kameron"                        # LOCAL VARIABLE in the LOCAL SCOPE
     this_file = "ATBS_v10.py"
     file_number = 10
     correct_password = name + "_" + this_file + "_" + str(file_number)
@@ -61,8 +62,9 @@ def password():
 password()
 # Kameron_ATBS_v10.py_10
 
-print("Global scope is still " + name)
-print("\n\n")
+print("Global Variable 'name' still has a value of " + name)
+print("however 'name' used ONLY in the context of the function above is 'Kameron' and not " + name)
+print("\n")
 
 # QUESTION: if a variable is within a function, is it 1. a Global Variable or 2. a Local Variable being read from the Global Scope?
 # ANSWER: Depends on whethere there is an Assignment Statement defining the variable anywhere in the function
@@ -97,7 +99,7 @@ print()
 
 
 # QUESTION: Can you assign a new value to a Global Variable within the Local Scope?
-# ANSWER: YES - Global Statements:
+# ANSWER: YES - global Statements:
 
 # `global ___`
 
