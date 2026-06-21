@@ -2,7 +2,7 @@
 # Kam McIntire | Sports Analytics Journey
 # VIDEO 12: .
 # Source: Automate the Boring Stuff - Al Sweigart
-# Date: .
+# Date: 06/20/2026
 # =============================================================
 
 # CONCEPTS COVERED:
@@ -12,7 +12,7 @@
 # CONCEPT: .
 # -------------------------------------------------------------
 
-# explanation and code here
+
 
 # QUESTION: 
 # ANSWER: 
