@@ -2,7 +2,7 @@
 # Kam McIntire | Sports Analytics Journey
 # VIDEO 13: Lists, Indexes, & Slices
 # Source: Automate the Boring Stuff - Al Sweigart
-# Date: 06/26/2026
+# Date: 06/26/2026 - Last updated 06/27/2026
 # =============================================================
 
 # CONCEPTS COVERED:
@@ -36,7 +36,7 @@
 # -------------------------------------------------------------
 
 this_is_a_list = ["Item A", "Item B", "Item C"]
-# Index =   0         1        2
+# Index ------->     0         1         2
 
 this_is_a_dictionary = {
     "key_1": "Value A",
